@@ -33,10 +33,10 @@ function App() {
     <main className="container">
 
 
-    <h1>React</h1>
-    <h2>Useless Facts</h2>
+    <h1>REACT</h1>
+    <h2>USELESS FACTS</h2>
     <div className="square">
-      <button className="getFact" onClick={getFact}>Get Quote</button>
+      <button className="getFact" onClick={getFact}>Get Fact</button>
       <p className="fact">{text}</p>
     </div>
   </main>

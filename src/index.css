@@ -1,3 +1,13 @@
+:root{
+  --bodybackground: #a26ab9;
+  --squareBackground: #f2e0f7;
+  --buttonColor:#e438b9;
+  --buttonHover: #d253b2;
+  --bodyText:#fff;
+  --factText:#1f2631;
+
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,8 +15,8 @@
 }
 
 body {
-	background-color: #1f2631;
-	color: #fff;
+	background-color: var(--bodybackground);
+	color: var(--bodyText);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -24,7 +34,7 @@ body {
 }
 
 .square {
-	background-color: #313a49;
+	background-color: var(--squareBackground);
 	margin: 2em;
 	border-radius: 20px;
 	width: 25em;
@@ -39,8 +49,8 @@ body {
 	padding: 1em 2em;
 	border-radius: 10px;
 	border: none;
-	background-color: #50ffaf;
-	color: #1f2631;
+	background-color: var(--buttonColor);
+	color: var(--factText);
 	font-size: 1.5rem;
 	font-weight: 600;
 	cursor: pointer;
@@ -49,12 +59,12 @@ body {
 
 .getFact:hover{
 	scale: 1.1;
-	background-color: #78ffc2;
+	background-color: var(--buttonHover);
 }
 
 .fact{
 	/* display: none; */
-	color: #fff;
+	color: var(--factText);
 	font-size: 1.5rem;
 	font-weight: 500;
 	margin: 2em 2em 0 2em;
